@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035918257646",
+    "firebase_url": "https://dhyanam2-66be4-default-rtdb.firebaseio.com",
+    "project_id": "dhyanam2-66be4",
+    "storage_bucket": "dhyanam2-66be4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035918257646:android:5bf9d3110c5000b73472ff",
+        "android_client_info": {
+          "package_name": "com.example.dhyanam_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035918257646-p561r8ni1pt4r2h7i88p8dg4s6m2ok8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhyanam_",
+            "certificate_hash": "562c6f9f592a74e5e6eb61dc0cdbde865be23257"
+          }
+        },
+        {
+          "client_id": "1035918257646-bl31dpuasm92et55b2s50tr5r6eohg04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC725mZRuQus0MqKjLX6gjKXyIE1kQ-y3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035918257646-bl31dpuasm92et55b2s50tr5r6eohg04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

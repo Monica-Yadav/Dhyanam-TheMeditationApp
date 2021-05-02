@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dhyanam_</string>
+
+    <!--String for onBoarding Screen-->
+    <!--Titles-->
+    <string name="first_slide_title">#MINDTIME</string>
+    <string name="second_slide_title">#MEDITATION</string>
+    <string name="third_slide_title">#INNERPEACE</string>
+    <string name="fourth_slide_title">#VIBES</string>
+
+    <!--Descriptions-->
+
+    <string name="first_slide_desc">“Your goal is not to battle with the mind, but to witness the mind.” – Swami Muktananda</string>
+    <string name="second_slide_desc">“Meditation is like a gym in which you develop the powerful mental muscles of calm and insight.”– Ajahn Brahm</string>
+    <string name="third_slide_desc">“The more regularly and the more deeply you meditate, the sooner you will find yourself acting always from a center of peace.”– J. Donald Walters</string>
+    <string name="fourth_slide_desc">“In the midst of movement and chaos, keep stillness inside of you.”</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="not_registered_yet_register_here">NOT Registered YET? REGISTER HERE</string>
+
+
+    <string name="quote1">If you want to find God, hang out in the space between your thoughts.\n– Alan Cohen</string>
+    <string name="quote2">Accepting the reality of change gives rise to equanimity.\n– Allan Lokos</string>
+    <string name="quote3"> Life is a mystery – mystery of beauty, bliss and divinity. Meditation is the art of unfolding that mystery.\n– Amit Ray</string>
+    <string name="quote4">Peace comes from within. Do not seek it without.\n– Buddha</string>
+    <string name="quote5">What we are today comes from our thoughts of yesterday, and our present thoughts build our life of tomorrow. Our life is the creation of our mind.\n– Buddha</string>
+    <string name="quote6">Do not let the behavior of others destroy your inner peace.\n– Dalai Lama</string>
+    <string name="quote7">The thing about meditation is that you become more and more YOU.\n– David Lynch</string>
+    <string name="quote8">Your goal is not to battle with the mind, but to witness the mind.\n– Swami Muktananda</string>
+    <string name="quote9">“You’ve gotta dance like there’s nobody watching, love like you’ll never be hurt, sing like there’s nobody listening, and live like it’s heaven on earth.”\n ― William W. Purkey</string>
+    <string name="quote10">“Never regret anything that made you smile.”\n – Mark Twain</string>
+    <string name="quote11">“This is a reminder to you to create your own rule book, and live your life the way you want it.”\n – Reese Evans</string>
+    <string name="quote12">“If you don’t get out of the box you’ve been raised in, you won’t understand how much bigger the world is.” – Angelina Jolie</string>
+    <string name="quote13">“If you can dream it, you can do it.”\n – Walt Disney</string>
+    <string name="quote14">“Today is your opportunity to build the tomorrow you want.”\n – Ken Poirot</string>
+    <string name="quote15">The state we call realization is simply being oneself, not knowing anything or becoming anything.\n– Ramana Maharshi</string>
+    <string name="quote16">Put your heart, mind, intellect, and soul even to your smallest acts. This is the secret of success.\n– Swami Sivananda</string>
+    <string name="quote17">Quiet the mind, and the soul will speak.\n– Ma Jaya Sati Bhagavati</string>
+    <string name="quote18">Your mind is your instrument. Learn to be its master and not its slave.\n– Remez Sasson</string>
+    <string name="quote19">Believe in yourself and the world will be at your feet.\n– Swami Vivekananda</string>
+    <string name="quote20">A few conscious-hearted, sincere, and energetic men and women can do more in a year than a mob in a century.\n– Swami Vivekananda</string>
+</resources>

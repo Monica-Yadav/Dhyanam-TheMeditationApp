@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhyanam_">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dhyanam_">
+        <activity android:name=".reminder" />
+        <activity android:name=".CATEGORIES.Ambience" />
+        <activity android:name=".CATEGORIES.Cate_RecommendedByPro" />
+        <activity android:name=".Quotes" />
+        <activity android:name=".CATEGORIES.Cate_NatureVibes" />
+        <activity android:name=".SMaudioPlayer.CBaudioplayer" />
+        <activity android:name=".SMaudioPlayer.BSBaudioPlayer" />
+        <activity android:name=".CATEGORIES.Cate_SanskritShlokas" />
+        <activity android:name=".BSaudioPlayers.CompleteBSAP" />
+        <activity android:name=".BSaudioPlayers.FourMinBSAP" />
+        <activity android:name=".GUaudioPlayers.GUTenMinBrAudioPlayer" />
+        <activity android:name=".GUaudioPlayers.GUSixMinBrAudioPlayer" />
+        <activity android:name=".GUaudioPlayers.GUFiveMinBrAudioPlayer" />
+        <activity android:name=".GUaudioPlayers.GUThreeMinBrAudioPlayer" />
+        <activity android:name=".CATEGORIES.Cate_Sitting_Meditation" />
+        <activity android:name=".CATEGORIES.Cate_BodyScan" />
+        <activity android:name=".CATEGORIES.Cate_GuidedMindfulness" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="MainActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".OnBoardingScreen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <receiver android:name=".AlarmReceiver"/>
+    </application>
+
+</manifest>

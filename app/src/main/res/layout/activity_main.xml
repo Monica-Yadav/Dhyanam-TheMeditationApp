@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cate_nature"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="178dp"
+            android:layout_height="169dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="215dp"
+            android:src="@drawable/iclogocircle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="185dp"
+            android:layout_marginBottom="23dp"
+            android:fontFamily="@font/caveat_bold"
+            android:paddingLeft="10dp"
+            android:text="Welcome"
+            android:textColor="#000"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toTopOf="@+id/slogan_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:drawableRightCompat="@drawable/welcomeicon" />
+
+        <TextView
+            android:id="@+id/slogan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="49dp"
+            android:paddingLeft="10dp"
+            android:text="SignUp to start your new Journey"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/email_reg"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_shape"
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="Enter Email Address"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/passreg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/pass_login"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/edit_shape"
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/registration_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_btn"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:background="#FFCCBC"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/gsSignInBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/reg_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="29dp"
+            android:text="@string/not_registered_yet_register_here"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="8dp"
+            android:layout_height="15dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</ScrollView>

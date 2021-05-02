@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bgnature"
+    tools:context=".reminder">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/ic_backwhite"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Set Reminder for Meditation"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Task"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:id="@+id/editText"/>
+    <TimePicker
+        android:headerBackground="#B2EBF2"
+        android:id="@+id/timePicker"
+        android:layout_width="310dp"
+        android:layout_height="360dp"
+        android:numbersSelectorColor="#B2EBF2"
+        android:numbersBackgroundColor="@color/colorWhite"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setBtn"
+            android:layout_marginRight="5dp"
+            android:background="@color/colorWhite"
+            android:text="SET"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelBtn"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorWhite"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
